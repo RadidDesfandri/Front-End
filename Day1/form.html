@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <!-- jenis  -->
+    <form action="" method="post">
+        <input type="text" />
+        <input type="password" required />
+        <input type="checkbox" />
+        <input type="radio" />
+        <input type="number" min="0" max="10" />
+        <input type="submit" value="OK" />
+        <textarea rows="3" cols="64"></textarea>
+    </form>
+    <br>
+    <hr>
+    <br>
+
+    <button type="button">OK</button>
+    <button type="button" onclick="doSometimes()">Apply</button>
+    
+    <!--  -->
+    <p>Apa warna favarit mu</p>
+    <select name="" id="">
+        <option>Black</option>
+        <option>Pink</option>
+        <option>Magenta</option>
+    </select>
+
+
+    <br><hr><br>
+
+    <!--  -->
+    <fieldset>
+        <legend>Data diri</legend>
+        <p>
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama"/>
+        </p>
+
+        <p>
+            <label for="usia">Usia:</label>
+            <input type="number" name="usia"/>
+        </p>
+    </fieldset>
+    
+    <!-- Tag div -->
+     
+
+</body>
+<script>
+    function doSometimes(){
+        console.log("Hello world");
+    }
+</script>
+</html>

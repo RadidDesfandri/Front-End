@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(183, 183, 183);
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #DBB5B5;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.pict{
+    width: 200px;
+    padding: 20px;
+}
+
+
+
+
