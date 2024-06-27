@@ -1,0 +1,67 @@
+*{
+    padding: o;
+    margin: auto;
+    align-content: center;
+
+}
+
+.bungkus {
+    width: 900px;
+}
+
+.badan  p{
+    width: auto;
+    height: 150px;
+    margin-top: 10px ;
+    text-align: center;
+    background-color: #D8EFD3;
+}
+
+.header{
+    height: 250px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #D8EFD3;
+}
+
+.navigation{
+    margin-top: 15px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+ 
+}
+
+.navigation div{
+    width: 213px;
+    background-color: #D8EFD3;
+    height: 40px;
+    text-align: center;
+}
+
+.quicklink{
+    margin-top: 15px;
+    background-color: #D8EFD3;
+    height: 242px;
+    width: 442px;
+    text-align: center;
+    float: right;
+}
+
+.about{
+    margin-top: 15px;
+    text-align: center;
+    width: 442px;
+    height: 500px;
+    float: left;
+    background-color: #D8EFD3;
+}
+
+.site{
+    background-color: #D8EFD3;
+    text-align: center;
+    margin-top: 531px;
+    height: 240px;
+    width: 900px;
+    
+}

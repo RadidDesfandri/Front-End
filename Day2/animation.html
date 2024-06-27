@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            margin: 50px;
+            background-color: #059212;
+            border-radius: 20%;
+            position: relative;
+            animation-name: animasi2;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+
+        /* .box:hover{ */
+            /* transform: translate(100px, 100px); */
+            /* transform: rotate(45deg);
+            background-color: #06D001;
+            border-radius: 50%;
+            transition-duration: 0.7s; */
+        /* } */
+
+        @keyframes animasi1{
+            from{
+                background-color: aqua;
+            }
+            to{
+                background-color:#06D001 ;
+            }
+        }
+
+        @keyframes animasi2{
+            0%{ background-color:  red; left: 0; top: 0;}
+            25%{ background-color:  yellow; left: 200px; top: 0;}
+            50%{ background-color:  blue; left: 200px; top: 200px;}
+            75%{ background-color:  green; left: 0; top: 200px;}
+            100%{ background-color:  orange; left: 0; top: 0;}
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+button.submit{
+    background-color: #3AA6B9;
+    color: #FEFAF6;
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 0;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+p.lorem1{
+    margin-top: 50px;
+}
+
+p.absolute{
+    position: absolute;
+    top: -23px;
+    right: -18px;
+    rotate: 40deg;
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+div.kontak{
+    position: fixed;
+    background-color: #008000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    right: 50px;
+    bottom: 50px;
+}
+
+div.kontak:hover{
+    background-color: #00be00;
+    width: 60px;
+    height: 60px;
+}
+
+div.sticky{
+    background-color: #76885B;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 5px;
+}
+
+@media screen and (min-width: 480px){
+    div.sticky{
+        background-color: #3AA6B9;
+    }
+}
+@media screen and (min-width: 768px){
+    div.sticky{
+        background-color: #82f606;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+        #main div{
+            height: 60px;
+            width: 300px;
+            text-align: center;
+            align-content: center;
+        }
+
+        /* flex displaynya kesamping */
+        #main{
+            /* flex-direction: row; */
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div style="background-color: red;">A</div>
+        <div style="background-color: yellow;">B</div>
+        <div style="background-color: green;">C</div>
+        <div style="background-color: orange;">D</div>
+        <div style="background-color: blue;">E</div>
+        <div style="background-color: purple;">F</div>
+    </div>
+</body>
+</html>
